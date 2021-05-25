@@ -13,7 +13,7 @@ class PointLocation:
 
 
 class Point3D:
-
+    """Класс для хранения кооординат точки в трехмерном пространстве"""
     coord = PointLocation()
 
     def __init__(self, pcoord=(0, 0, 0)):
